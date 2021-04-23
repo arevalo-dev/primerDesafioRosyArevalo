@@ -208,6 +208,10 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: initial;
+  -webkit-box-direction: initial;
+      -ms-flex-direction: initial;
+          flex-direction: initial;
   margin: 20px 0px;
 }
 .main .section-center .article ul li {
@@ -277,12 +281,15 @@ a {
   border-top: 1px dashed gray;
   margin-top: 20px;
   padding-top: 20px;
-  /*insertar estilo de letra*/
 }
 .main .section-article .boxing-article article ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: initial;
+  -webkit-box-direction: initial;
+      -ms-flex-direction: initial;
+          flex-direction: initial;
   margin: 20px 0px;
 }
 .main .section-article .boxing-article article ul li {
