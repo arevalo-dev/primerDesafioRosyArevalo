@@ -502,28 +502,33 @@ footer {
       -ms-flex-pack: center;
           justify-content: center;
 }
-footer .logo {
-  margin: 0 0 0 20px;
+
+.logo-footer {
+  margin: 0 auto 20px;
 }
-footer ul {
+
+ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  margin: 10px auto;
 }
-footer li {
+
+li {
   list-style: none;
   margin: 0 10px;
 }
-footer section h3 {
+
+section h3 {
   text-align: center;
   font-weight: 400;
   font-size: 14;
   margin: 20px auto;
 }
-footer section ul {
+section ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -535,11 +540,12 @@ footer section ul {
       -ms-flex-align: center;
           align-items: center;
 }
-footer section li {
+section li {
   list-style: none;
   margin: 5px auto;
 }
-footer .contacto {
+
+.contacto {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -551,10 +557,16 @@ footer .contacto {
       -ms-flex-align: center;
           align-items: center;
 }
-footer .direccion .derechos {
+
+.direccion .derechos {
   font-size: 14px;
   font-weight: 300;
   color: black;
   margin: 10px 50px;
   text-align: center;
+}
+
+span {
+  font-size: 18px;
+  color: red;
 }/*# sourceMappingURL=style.css.map */
