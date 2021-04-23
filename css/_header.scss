@@ -8,8 +8,8 @@
         justify-content: center;
         width: 100vw;
         a.logo img {
-            margin-top: 5px;
-            margin-left: 15px;
+            margin-top: 20px;
+            margin-left: 20px;
             width: 88px;
             height: 44px;
         }
@@ -17,7 +17,7 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
-            margin-top: 5px;
+            margin-top: 20px;
             margin-right: 25px;
             li {
                 list-style-type: none;
@@ -44,12 +44,13 @@
             margin-top: 40px;
             margin-bottom: 10px;
             font-family: $tipografia-textos;
+            font-size: 16px;
             color: rgba(133, 133, 133, 1);
         }
         h1 {
-            margin-top: 10px;
-            margin-bottom: 20px;
+            margin: 10px 30px 20px 30px;
             font-family: $tipografia-abril-titulos;
+            font-size: 32px;
             color: $color-primary-black-900;
         }
         
@@ -89,5 +90,53 @@
         width: 341.69px;
         height: 244px;
         align-self: center;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .header {
+        .navigation{
+            ul {
+                li {
+                    align-items: center;
+                    a {
+                        display: inline-block;
+                        color: $color-primary-black-900;
+                        font-family: $tipografia-textos;
+                    }
+                    a.contact {
+                        border: 1px solid black;
+                        border-radius: 9px;
+                        background-color: $color-primary-black-900;
+                        color: $color-primary-brown-800;
+                        font-family: $tipografia-textos;
+                        width: 130px;
+                        height: 35px;
+                        margin: 0 5px 0px 5px;
+                        text-align: center;
+                        padding: 5px;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+        
+        .container{
+            h1 {
+                font-size: 100px;
+            }
+        }
+        
+        .boxing {
+            display: flex;
+            align-content: flex-start;
+        }
+        
+        .pianoHeader{
+            margin-top: 40px;
+            width: 589px;
+            height: 454px;
+            align-self: center;
+        }
     }
 }

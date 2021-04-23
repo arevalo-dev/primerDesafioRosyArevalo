@@ -34,8 +34,8 @@ a {
   width: 100vw;
 }
 .header .navigation a.logo img {
-  margin-top: 5px;
-  margin-left: 15px;
+  margin-top: 20px;
+  margin-left: 20px;
   width: 88px;
   height: 44px;
 }
@@ -49,7 +49,7 @@ a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-top: 5px;
+  margin-top: 20px;
   margin-right: 25px;
 }
 .header .navigation ul li {
@@ -83,12 +83,13 @@ a {
   margin-top: 40px;
   margin-bottom: 10px;
   font-family: "Raleway", sans-serif;
+  font-size: 16px;
   color: #858585;
 }
 .header .container h1 {
-  margin-top: 10px;
-  margin-bottom: 20px;
+  margin: 10px 30px 20px 30px;
   font-family: "Abril Fatface", cursive;
+  font-size: 32px;
   color: #000000;
 }
 .header .boxing {
@@ -132,6 +133,48 @@ a {
       align-self: center;
 }
 
+@media screen and (min-width: 1024px) {
+  .header .navigation ul li {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .header .navigation ul li a {
+    display: inline-block;
+    color: #000000;
+    font-family: "Raleway", sans-serif;
+  }
+  .header .navigation ul li a.contact {
+    border: 1px solid black;
+    border-radius: 9px;
+    background-color: #000000;
+    color: #FFFFFF;
+    font-family: "Raleway", sans-serif;
+    width: 130px;
+    height: 35px;
+    margin: 0 5px 0px 5px;
+    text-align: center;
+    padding: 5px;
+    text-decoration: none;
+  }
+  .header .container h1 {
+    font-size: 100px;
+  }
+  .header .boxing {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-line-pack: start;
+        align-content: flex-start;
+  }
+  .header .pianoHeader {
+    margin-top: 40px;
+    width: 589px;
+    height: 454px;
+    -ms-flex-item-align: center;
+        align-self: center;
+  }
+}
 .main {
   display: -webkit-box;
   display: -ms-flexbox;
