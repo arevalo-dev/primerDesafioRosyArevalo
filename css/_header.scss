@@ -13,20 +13,19 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
+            margin-top: 5px;
+            margin-right: 25px;
             li {
                 list-style-type: none;
                 text-decoration: none;
-                display: flex;
-                align-items: center;
                 a {
-                display: none;
+                display: none
                 }
                 a.car {
                     display: block;
-                    margin-top: 0px;
-                    margin-right: 35px;
                 }
                 a.car img {
+                    margin-top: 15px;
                     width: 25px;
                     height: 25px;
                 }
@@ -75,7 +74,8 @@
             text-decoration: none;
         }
     }
-    img{
+    .pianoHeader{
+
         margin-top: 40px;
         width: 341.69px;
         height: 244px;

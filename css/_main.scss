@@ -5,6 +5,7 @@
     align-items: center;
 
     .section-center {
+        position: relative;
         display: flex;
         flex-direction: column;
         justify-items: center;
@@ -18,6 +19,13 @@
             
             width: 310px;
             height: 245px;
+        }
+        video {
+            position: absolute;
+            top: 100px;
+            z-index: 1;
+            width: 100vw;
+            height: 180px;
         }
         .article {
             display: flex;
