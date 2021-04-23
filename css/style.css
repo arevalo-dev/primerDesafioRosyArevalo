@@ -440,6 +440,8 @@ input {
 }
 
 .partners h2 {
+  font-family: "Abril Fatface", cursive;
+  margin: 10px 40px;
   font-size: 24px;
   text-align: center;
   font-weight: 400;
@@ -483,6 +485,7 @@ input {
 }
 
 .partners .left p {
+  font-family: "Raleway", sans-serif;
   font-size: 32px;
   color: white;
   margin: auto;
@@ -526,6 +529,7 @@ input {
 }
 
 .partners .right p {
+  font-family: "Raleway", sans-serif;
   font-size: 32px;
   color: white;
   margin: auto;
@@ -568,6 +572,7 @@ li {
 }
 
 section h3 {
+  font-family: "Abril Fatface", cursive;
   text-align: center;
   font-weight: 400;
   font-size: 14;
@@ -591,12 +596,8 @@ section li {
   list-style: none;
   margin: 5px auto;
 }
-<<<<<<< HEAD
 
 .contacto {
-=======
-footer .contacto {
->>>>>>> ee9fdc1ad8f8291634b66a8607be1b084a318195
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -608,18 +609,15 @@ footer .contacto {
       -ms-flex-align: center;
           align-items: center;
 }
-<<<<<<< HEAD
 
-.direccion .derechos {
-=======
-footer .direccion .derechos {
->>>>>>> ee9fdc1ad8f8291634b66a8607be1b084a318195
+.direccion,
+.derechos {
+  font-family: "Raleway", sans-serif;
   font-size: 14px;
   font-weight: 300;
   color: black;
   margin: 10px 50px;
   text-align: center;
-<<<<<<< HEAD
 }
 
 span {
@@ -627,6 +625,3 @@ span {
   color: red;
 }
 /*# sourceMappingURL=style.css.map */
-=======
-}/*# sourceMappingURL=style.css.map */
->>>>>>> ee9fdc1ad8f8291634b66a8607be1b084a318195
