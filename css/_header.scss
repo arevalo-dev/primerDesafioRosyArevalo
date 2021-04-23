@@ -1,8 +1,12 @@
 .header {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     .navigation{
         display: flex;
         align-items: center;
-        justify-content: space-between;
+        justify-content: center;
+        width: 100vw;
         a.logo img {
             margin-top: 5px;
             margin-left: 15px;
@@ -81,9 +85,9 @@
         }
     }
     .pianoHeader{
-
         margin-top: 40px;
         width: 341.69px;
         height: 244px;
+        align-self: center;
     }
 }
