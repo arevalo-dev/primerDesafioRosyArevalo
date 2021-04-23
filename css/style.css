@@ -321,14 +321,81 @@ a {
   text-decoration: none;
 }
 
+.form {
+  padding: 10px;
+  background-size: cover;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#FFFFFF), to(rgba(255, 255, 255, 0.35))), url("../assets/banner.png");
+  background-image: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0.35) 100%), url("../assets/banner.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100vw;
+  padding: 20px 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+h2 {
+  text-align: center;
+  font-weight: 400;
+  font-size: 24px;
+  margin: 20px auto;
+}
+
+p {
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  margin: 10px auto;
+}
+
+label {
+  font-weight: 700;
+  font-size: 16px;
+}
+
+input {
+  background: rgba(0, 0, 0, 0.75);
+  width: 100%;
+  margin: 20px auto;
+  border: 1px solid white;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+.cuentanos {
+  height: 150px;
+}
+
+.boton {
+  background: black;
+  width: 100%;
+  margin: 20px auto;
+  border-radius: 8px;
+  padding: 10px;
+  border: none;
+  font-size: 14px;
+  font-weight: 700;
+  color: #FFFFFF;
+}
+
 /*partners*/
 .partners {
   background-image: linear-gradient(177.96deg, #6F6F6F 1.72%, rgba(255, 255, 255, 0.43) 98.63%);
   width: 100vw;
+  padding: 10px;
 }
 .partners h2 {
   font-size: 24px;
   text-align: center;
+  font-weight: 400;
 }
 .partners .left .rectangulo {
   width: 300px;
@@ -413,6 +480,7 @@ a {
 footer {
   background-image: linear-gradient(177.96deg, rgba(255, 255, 255, 0.43) 1.72%, #6F6F6F 107.44%);
   width: 100vw;
+  padding: 50px 15px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -441,7 +509,8 @@ footer li {
 }
 footer section h3 {
   text-align: center;
-  font-style: 14px;
+  font-weight: 400;
+  font-size: 14;
   margin: 20px auto;
 }
 footer section ul {
@@ -460,7 +529,12 @@ footer section li {
   list-style: none;
   margin: 5px auto;
 }
+<<<<<<< HEAD
 footer section {
+=======
+
+footer .contacto {
+>>>>>>> b16586cebaeeeb54944803be8196ba65d8930082
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -471,10 +545,22 @@ footer section {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  border: 1px solid brown;
 }
+<<<<<<< HEAD
 footer p {
+=======
+
+footer .direccion .derechos {
+>>>>>>> b16586cebaeeeb54944803be8196ba65d8930082
   font-size: 14px;
+  font-weight: 300;
   color: black;
+<<<<<<< HEAD
   margin: 10px auto;
 }/*# sourceMappingURL=style.css.map */
+=======
+  margin: 10px 50px;
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */
+>>>>>>> b16586cebaeeeb54944803be8196ba65d8930082

@@ -2,10 +2,12 @@
 .partners {
   background-image: linear-gradient(177.96deg, #6F6F6F 1.72%, rgba(255, 255, 255, 0.43) 98.63%);
   width: 100vw;
+  padding: 10px;
 }
 .partners h2 {
   font-size: 24px;
   text-align: center;
+  font-weight: 400;
 }
 .partners .left .rectangulo {
   width: 300px;
