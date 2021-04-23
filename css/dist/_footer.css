@@ -2,6 +2,7 @@
 footer {
   background-image: linear-gradient(177.96deg, rgba(255, 255, 255, 0.43) 1.72%, #6F6F6F 107.44%);
   width: 100vw;
+  padding: 50px 15px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -19,7 +20,8 @@ footer li {
 }
 footer section h3 {
   text-align: center;
-  font-style: 14px;
+  font-weight: 400;
+  font-size: 14;
   margin: 20px auto;
 }
 footer section ul {
@@ -31,14 +33,15 @@ footer section li {
   list-style: none;
   margin: 5px auto;
 }
-footer section {
+footer .contacto {
   display: flex;
   flex-direction: column;
   align-items: center;
-  border: 1px solid brown;
 }
-footer p {
+footer .direccion .derechos {
   font-size: 14px;
+  font-weight: 300;
   color: black;
-  margin: 10px auto;
+  margin: 10px 50px;
+  text-align: center;
 }
