@@ -5,6 +5,10 @@
           box-sizing: border-box;
 }
 
+a {
+  text-decoration: none;
+}
+
 .header .navigation {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -187,6 +191,9 @@ footer {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 footer .logo {
@@ -197,6 +204,9 @@ footer ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 footer li {
@@ -207,5 +217,29 @@ footer li {
 footer section h3 {
   text-align: center;
   font-style: 14px;
+  margin: 20px auto;
+}
+
+footer section ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer section li {
+  list-style: none;
+  margin: 5px auto;
+}
+
+footer section p {
+  font-size: 12px;
+  color: #000000;
 }
 /*# sourceMappingURL=style.css.map */
