@@ -143,17 +143,14 @@ a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background: -webkit-gradient(linear, left bottom, left top, color-stop(-5.01%, #FFFFFF), color-stop(150%, #000000)), no-repeat;
-  background: linear-gradient(0deg, #FFFFFF -5.01%, #000000 150%), no-repeat;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(-1%, #FFFFFF), color-stop(35%, #000000), color-stop(101.2%, #FFFFFF)), no-repeat;
+  background: linear-gradient(#FFFFFF -1%, #000000 35%, #FFFFFF 101.2%), no-repeat;
 }
 .main .section-center h2 {
   text-align: center;
   margin: 10px;
 }
 .main .section-center .piano {
-  position: relative;
-  top: 10px;
-  left: 50px;
   width: 310px;
   height: 245px;
 }
@@ -171,6 +168,7 @@ a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  color: #FFFFFF;
 }
 .main .section-center .article h3 {
   text-align: center;
@@ -183,14 +181,17 @@ a {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin: 5px;
 }
 .main .section-center .article .valoration p {
-  font-family: Raleway;
+  font-family: "Raleway";
   /*insertar estilo de font*/
 }
 .main .section-center .article .valoration .stars {
-  padding-left: 15px;
+  padding-left: 10px;
 }
 .main .section-center .article .valoration .stars img {
   width: 15px;
