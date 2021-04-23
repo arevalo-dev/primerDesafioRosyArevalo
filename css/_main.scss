@@ -1,0 +1,17 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    .section-center {
+        display: flex;
+        flex-direction: column;
+        h2 {
+            text-align: center;
+            margin: 10px;
+        }
+        .piano {
+            align-content: center;
+            width: 310px;
+            height: 245px;
+        }
+    }
+}

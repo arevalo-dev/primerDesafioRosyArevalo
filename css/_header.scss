@@ -33,18 +33,32 @@
             margin-top: 10px;
             margin-bottom: 20px;
         }
-        .boxing {
-          display: flex;
-          .buttom {
-              border: 1px solid black;
-              border-radius: 9px;
-              width: 120px;
-              height: 40px;
-              margin-top: 10px;
-              padding: 10px;
-              text-align: center;
-
-          }
+        
+        }
+    .boxing {
+        display: flex;
+        justify-content: space-around;
+        .buttom-black {
+            border: 1px solid black;
+            border-radius: 9px;
+            background-color: $color-primary-black-900;
+            color: white;
+            width: 130px;
+            height: 35px;
+            margin: 10px 0 10px 12px;
+            text-align: center;
+            padding: 7px;
+        }
+        .buttom-white {
+            border: 1px solid black;
+            border-radius: 9px;
+            background-color: $color-primary-brown-800;
+            color: black;
+            width: 130px;
+            height: 35px;
+            margin: 10px 12px 10px 0;
+            text-align: center;
+            padding: 7px;
         }
     }
     img{
