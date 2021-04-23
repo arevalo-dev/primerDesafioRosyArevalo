@@ -4,22 +4,33 @@
         align-items: center;
         justify-content: space-between;
         a.logo img {
-            margin-top: 25px;
+            margin-top: 5px;
             margin-left: 15px;
             width: 88px;
             height: 44px;
         }
-        ul li {
-            list-style-type: none;
-            text-decoration: none;
-            a {
-                display: none;
-            }
-            a.car {
-                display: block;
-                margin-top: 25px;
-                margin-right: 15px;
+        ul {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            li {
+                list-style-type: none;
                 text-decoration: none;
+                a {
+                display: none;
+                }
+                a.car {
+                    display: block;
+                    margin-top: 5px;
+                    margin-right: 15px;
+                    width: 10%;
+                    height: 10%;
+                }
+                a.car img {
+                    margin-right: 20vw;
+                    
+                    border: 1px solid black;
+                }
             }
         }
     }
