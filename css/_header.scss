@@ -1,4 +1,5 @@
 .header {
+    position: relative;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -59,6 +60,7 @@
         display: flex;
         justify-content: space-around;
         .buttom-black {
+            display: block;
             border: 1px solid black;
             border-radius: 9px;
             background-color: $color-primary-black-900;
@@ -72,6 +74,7 @@
             text-decoration: none;
         }
         .buttom-white {
+            display: block;
             border: 1px solid black;
             border-radius: 9px;
             background-color: $color-primary-brown-800;
@@ -93,7 +96,15 @@
     }
 }
 
+.social {
+    display: none;
+    width: 80px;
+    height: 130px;
+}
+
+
 @media screen and (min-width: 1024px) {
+   
     .header {
         .navigation{
             ul {
@@ -123,13 +134,14 @@
         
         .container{
             h1 {
-                font-size: 100px;
+                font-size: 54px;
             }
         }
         
         .boxing {
             display: flex;
-            align-content: flex-start;
+            align-items:center;
+            margin: 0 360px;
         }
         
         .pianoHeader{

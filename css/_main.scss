@@ -3,31 +3,48 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    position: relative;
+    top: 0;
+    left: 0;
 
     .section-center {
         position: relative;
+        top: 0;
+        left: 0;
+        z-index: 1;
         display: flex;
         flex-direction: column;
         justify-items: center;
         align-items: center;
         background: linear-gradient($color-primary-brown-800 -1%, $color-primary-black-900 35%, $color-primary-brown-800 101.2%), no-repeat;        
+        
         h2 {
+            position: relative;
+            top: 0;
+            left: 0;
+            z-index: 2;
             text-align: center;
             padding-top: 5px;
             font-family: $tipografia-abril-titulos;
             color: $color-primary-black-900;
         }
+
         .piano {
-            
+            position: relative;
+            top: 0;
+            left: 0;
+            z-index: 3;
             width: 310px;
             height: 245px;
         }
+
         video {
             position: absolute;
-            top: 100px;
-            z-index: 1;
+            top: 120px;
+            z-index: 2;
             width: 100vw;
-            height: 180px;
+            height: 25vh;
+            opacity: 15%;
         }
         .article {
             display: flex;
@@ -117,6 +134,7 @@
         .boxing-article {
             display: flex;
             flex-direction: column;
+            justify-content: center;
             align-items: center;
             article {
                 display: flex;
