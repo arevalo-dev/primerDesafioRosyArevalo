@@ -12,6 +12,7 @@
 }
 
 h2 {
+  font-family: $tipografia-abril-titulos;
   text-align: center;
   font-weight: 400;
   font-size: 24px;
@@ -19,6 +20,7 @@ h2 {
 }
 
 p {
+  font-family: $tipografia-textos;
   font-weight: 400;
   font-size: 16px;
   text-align: center;
@@ -26,6 +28,7 @@ p {
 }
 
 label {
+  font-family: $tipografia-textos;
   font-weight: 700;
   font-size: 16px;
 }
@@ -50,6 +53,7 @@ input {
   border-radius: 8px;
   padding: 10px;
   border: none;
+  font-family: $tipografia-textos;
   font-size: 14px;
   font-weight: 700;
   color: #FFFFFF;
