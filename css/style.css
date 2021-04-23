@@ -20,12 +20,14 @@ a {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
+
 .header .navigation a.logo img {
   margin-top: 5px;
   margin-left: 15px;
   width: 88px;
   height: 44px;
 }
+
 .header .navigation ul {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -39,21 +41,26 @@ a {
   margin-top: 5px;
   margin-right: 25px;
 }
+
 .header .navigation ul li {
   list-style-type: none;
   text-decoration: none;
 }
+
 .header .navigation ul li a {
   display: none;
 }
+
 .header .navigation ul li a.car {
   display: block;
 }
+
 .header .navigation ul li a.car img {
   margin-top: 15px;
   width: 25px;
   height: 25px;
 }
+
 .header .container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -66,18 +73,21 @@ a {
       -ms-flex-align: center;
           align-items: center;
 }
+
 .header .container p {
   margin-top: 40px;
   margin-bottom: 10px;
   font-family: "Raleway", sans-serif;
   color: #858585;
 }
+
 .header .container h1 {
   margin-top: 10px;
   margin-bottom: 20px;
   font-family: "Abril Fatface", cursive;
   color: #000000;
 }
+
 .header .boxing {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -85,6 +95,7 @@ a {
   -ms-flex-pack: distribute;
       justify-content: space-around;
 }
+
 .header .boxing .buttom-black {
   border: 1px solid black;
   border-radius: 9px;
@@ -98,6 +109,7 @@ a {
   padding: 7px;
   text-decoration: none;
 }
+
 .header .boxing .buttom-white {
   border: 1px solid black;
   border-radius: 9px;
@@ -111,6 +123,7 @@ a {
   padding: 7px;
   text-decoration: none;
 }
+
 .header .pianoHeader {
   margin-top: 40px;
   width: 341.69px;
@@ -132,6 +145,7 @@ a {
       -ms-flex-align: center;
           align-items: center;
 }
+
 .main .section-center {
   position: relative;
   display: -webkit-box;
@@ -148,16 +162,19 @@ a {
   background: -webkit-gradient(linear, left top, left bottom, color-stop(-1%, #FFFFFF), color-stop(35%, #000000), color-stop(101.2%, #FFFFFF)), no-repeat;
   background: linear-gradient(#FFFFFF -1%, #000000 35%, #FFFFFF 101.2%), no-repeat;
 }
+
 .main .section-center h2 {
   text-align: center;
   padding-top: 5px;
   font-family: "Abril Fatface", cursive;
   color: #000000;
 }
+
 .main .section-center .piano {
   width: 310px;
   height: 245px;
 }
+
 .main .section-center video {
   position: absolute;
   top: 100px;
@@ -165,6 +182,7 @@ a {
   width: 100vw;
   height: 180px;
 }
+
 .main .section-center .article {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -181,12 +199,14 @@ a {
           align-items: center;
   color: #FFFFFF;
 }
+
 .main .section-center .article h3 {
   text-align: center;
   margin: 10px 0;
   font-family: "Abril Fatface", cursive;
   color: #FFFFFF;
 }
+
 .main .section-center .article .valoration {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -199,17 +219,21 @@ a {
           align-items: center;
   margin: 5px;
 }
+
 .main .section-center .article .valoration p {
   font-family: "Raleway", sans-serif;
   color: #FFFFFF;
 }
+
 .main .section-center .article .valoration .stars {
   padding-left: 10px;
 }
+
 .main .section-center .article .valoration .stars img {
   width: 15px;
   height: 15px;
 }
+
 .main .section-center .article .text {
   margin: 10px 25px;
   text-align: center;
@@ -217,6 +241,7 @@ a {
   font-style: normal;
   color: #FFFFFF;
 }
+
 .main .section-center .article ul {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -227,12 +252,15 @@ a {
           flex-direction: initial;
   margin: 20px 0px;
 }
+
 .main .section-center .article ul li {
   margin: 10px;
 }
+
 .main .section-center .article ul li:nth-of-type(1) {
   list-style-type: none;
 }
+
 .main .section-center .article .buttom-black {
   border: 1px solid black;
   border-radius: 9px;
@@ -245,6 +273,7 @@ a {
   margin-bottom: 30px;
   text-decoration: none;
 }
+
 .main .section-article {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -257,10 +286,12 @@ a {
       -ms-flex-align: center;
           align-items: center;
 }
+
 .main .section-article h2 {
   text-align: center;
   margin: 40px 0;
 }
+
 .main .section-article .boxing-article {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -273,6 +304,7 @@ a {
       -ms-flex-align: center;
           align-items: center;
 }
+
 .main .section-article .boxing-article article {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -290,11 +322,13 @@ a {
   -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
           box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
 .main .section-article .boxing-article article h3 {
   border-top: 1px dashed gray;
   margin-top: 20px;
   padding-top: 20px;
 }
+
 .main .section-article .boxing-article article ul {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -305,12 +339,15 @@ a {
           flex-direction: initial;
   margin: 20px 0px;
 }
+
 .main .section-article .boxing-article article ul li {
   margin: 10px;
 }
+
 .main .section-article .boxing-article article ul li:nth-of-type(1) {
   list-style-type: none;
 }
+
 .main .section-article .boxing-article article .foot {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -318,6 +355,7 @@ a {
   -ms-flex-pack: distribute;
       justify-content: space-around;
 }
+
 .main .section-article .boxing-article article .foot .buttom-white {
   border: 1px solid black;
   border-radius: 9px;
@@ -329,6 +367,7 @@ a {
   padding: 7px;
   text-decoration: none;
 }
+
 .main .section-article .boxing-article article .foot img {
   border: 1px solid black;
   border-radius: 9px;
@@ -338,6 +377,7 @@ a {
   height: 35px;
   padding: 7px;
 }
+
 .main .section-article .buttom-black {
   border: 1px solid black;
   border-radius: 9px;
@@ -373,6 +413,7 @@ a {
 }
 
 h2 {
+  font-family: "Abril Fatface", cursive;
   text-align: center;
   font-weight: 400;
   font-size: 24px;
@@ -380,6 +421,7 @@ h2 {
 }
 
 p {
+  font-family: "Raleway", sans-serif;
   font-weight: 400;
   font-size: 16px;
   text-align: center;
@@ -387,6 +429,7 @@ p {
 }
 
 label {
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 16px;
 }
@@ -411,6 +454,7 @@ input {
   border-radius: 8px;
   padding: 10px;
   border: none;
+  font-family: "Raleway", sans-serif;
   font-size: 14px;
   font-weight: 700;
   color: #FFFFFF;
@@ -422,6 +466,7 @@ input {
   width: 100vw;
   padding: 10px;
 }
+
 .partners h2 {
   font-family: "Abril Fatface", cursive;
   margin: 10px 40px;
@@ -429,6 +474,7 @@ input {
   text-align: center;
   font-weight: 400;
 }
+
 .partners .left .rectangulo {
   width: 300px;
   height: 100px;
@@ -443,6 +489,7 @@ input {
       -ms-flex-pack: start;
           justify-content: flex-start;
 }
+
 .partners .left .dot {
   width: 90px;
   height: 90px;
@@ -459,16 +506,19 @@ input {
       -ms-flex-align: center;
           align-items: center;
 }
+
 .partners .left img {
   width: 60px;
   height: 60px;
 }
+
 .partners .left p {
   font-family: "Raleway", sans-serif;
   font-size: 32px;
   color: white;
   margin: auto;
 }
+
 .partners .right .rectangulo {
   width: 300px;
   height: 100px;
@@ -483,6 +533,7 @@ input {
       -ms-flex-pack: end;
           justify-content: flex-end;
 }
+
 .partners .right .dot {
   width: 90px;
   height: 90px;
@@ -499,10 +550,12 @@ input {
       -ms-flex-align: center;
           align-items: center;
 }
+
 .partners .right img {
   width: 60px;
   height: 60px;
 }
+
 .partners .right p {
   font-family: "Raleway", sans-serif;
   font-size: 32px;
@@ -553,6 +606,7 @@ section h3 {
   font-size: 14;
   margin: 20px auto;
 }
+
 section ul {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -565,7 +619,11 @@ section ul {
       -ms-flex-align: center;
           align-items: center;
 }
+
 section li {
+  font-family: "Raleway", sans-serif;
+  font-size: 12px;
+  font-weight: 300;
   list-style: none;
   margin: 5px auto;
 }
@@ -584,7 +642,8 @@ section li {
 }
 
 .direccion,
-.derechos {
+.derechos,
+.credito {
   font-family: "Raleway", sans-serif;
   font-size: 14px;
   font-weight: 300;
@@ -596,4 +655,9 @@ section li {
 span {
   font-size: 18px;
   color: red;
+<<<<<<< HEAD
 }/*# sourceMappingURL=style.css.map */
+=======
+}
+/*# sourceMappingURL=style.css.map */
+>>>>>>> dcd5668cbef1f6d5fdb7f7ca1061b2ffa4099d14
