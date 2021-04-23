@@ -37,14 +37,19 @@
           display: flex;
           .buttom {
               border: 1px solid black;
+              border-radius: 9px;
+              width: 120px;
+              height: 40px;
               margin-top: 10px;
               padding: 10px;
+              text-align: center;
+
           }
         }
     }
     img{
-        margin-top: 20px;
-        width: 251.69px;
-        height: 194px;
+        margin-top: 40px;
+        width: 341.69px;
+        height: 244px;
     }
 }
