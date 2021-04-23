@@ -1,86 +1,56 @@
 * {
   margin: 0;
   padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .header .navigation {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  align-items: center;
+  justify-content: space-between;
 }
-
 .header .navigation a.logo img {
   margin-top: 25px;
   margin-left: 15px;
   width: 88px;
   height: 44px;
 }
-
 .header .navigation ul li {
   list-style-type: none;
 }
-
 .header .navigation ul li a {
   display: none;
 }
-
 .header .navigation ul li a.car {
   display: block;
   margin-top: 25px;
   margin-right: 15px;
 }
-
 .header .container {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  align-items: center;
 }
-
 .header .container p {
   margin-top: 40px;
   margin-bottom: 10px;
 }
-
 .header .container h1 {
   margin-top: 10px;
   margin-bottom: 20px;
 }
-
 .header .container .boxing {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
-
 .header .container .boxing .buttom {
   border: 1px solid black;
-  border-radius: 9px;
-  width: 120px;
-  height: 40px;
   margin-top: 10px;
   padding: 10px;
-  text-align: center;
 }
-
 .header img {
-  margin-top: 40px;
-  width: 341.69px;
-  height: 244px;
+  margin-top: 20px;
+  width: 251.69px;
+  height: 194px;
 }
 
 /*partners*/
@@ -88,12 +58,10 @@
   background-image: linear-gradient(177.96deg, #6F6F6F 1.72%, rgba(255, 255, 255, 0.43) 98.63%);
   width: 100vw;
 }
-
 .partners h2 {
   font-size: 24px;
   text-align: center;
 }
-
 .partners .left .rectangulo {
   width: 300px;
   height: 100px;
@@ -101,42 +69,28 @@
   border-radius: 50px 15px 15px 50px;
   padding: 5px;
   margin: 20px auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  justify-content: flex-start;
 }
-
 .partners .left .dot {
   width: 90px;
   height: 90px;
   background-color: rgba(255, 255, 255, 0.5);
   border-radius: 50%;
   border: 1px solid white;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
 }
-
 .partners .left img {
   width: 60px;
   height: 60px;
 }
-
 .partners .left p {
   font-size: 32px;
   color: white;
   margin: auto;
 }
-
 .partners .right .rectangulo {
   width: 300px;
   height: 100px;
@@ -144,36 +98,23 @@
   border-radius: 15px 50px 50px 15px;
   padding: 5px;
   margin: 20px auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  justify-content: flex-end;
 }
-
 .partners .right .dot {
   width: 90px;
   height: 90px;
   background-color: rgba(255, 255, 255, 0.5);
   border-radius: 50%;
   border: 1px solid white;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
 }
-
 .partners .right img {
   width: 60px;
   height: 60px;
 }
-
 .partners .right p {
   font-size: 32px;
   color: white;
@@ -184,32 +125,20 @@
 footer {
   background-image: linear-gradient(177.96deg, rgba(255, 255, 255, 0.43) 1.72%, #6F6F6F 107.44%);
   width: 100vw;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
 }
-
 footer .logo {
   margin: 50px auto;
 }
-
 footer ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
-
 footer li {
   list-style: none;
   margin: 0 10px;
 }
-
 footer section h3 {
   text-align: center;
   font-style: 14px;
 }
-/*# sourceMappingURL=style.css.map */
