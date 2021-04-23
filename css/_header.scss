@@ -11,25 +11,24 @@
         }
         ul {
             display: flex;
-            justify-content: center;
+            justify-content: space-between;
             align-items: center;
             li {
                 list-style-type: none;
                 text-decoration: none;
+                display: flex;
+                align-items: center;
                 a {
                 display: none;
                 }
                 a.car {
                     display: block;
-                    margin-top: 5px;
-                    margin-right: 15px;
-                    width: 10%;
-                    height: 10%;
+                    margin-top: 0px;
+                    margin-right: 35px;
                 }
                 a.car img {
-                    margin-right: 20vw;
-                    
-                    border: 1px solid black;
+                    width: 25px;
+                    height: 25px;
                 }
             }
         }
