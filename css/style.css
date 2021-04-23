@@ -69,10 +69,14 @@ a {
 .header .container p {
   margin-top: 40px;
   margin-bottom: 10px;
+  font-family: "Raleway", sans-serif;
+  color: #858585;
 }
 .header .container h1 {
   margin-top: 10px;
   margin-bottom: 20px;
+  font-family: "Abril Fatface", cursive;
+  color: #000000;
 }
 .header .boxing {
   display: -webkit-box;
@@ -85,7 +89,8 @@ a {
   border: 1px solid black;
   border-radius: 9px;
   background-color: #000000;
-  color: white;
+  color: #FFFFFF;
+  font-family: "Raleway", sans-serif;
   width: 130px;
   height: 35px;
   margin: 10px 0 10px 12px;
@@ -97,7 +102,8 @@ a {
   border: 1px solid black;
   border-radius: 9px;
   background-color: #FFFFFF;
-  color: black;
+  color: #000000;
+  font-family: "Raleway", sans-serif;
   width: 130px;
   height: 35px;
   margin: 10px 12px 10px 0;
@@ -144,7 +150,9 @@ a {
 }
 .main .section-center h2 {
   text-align: center;
-  margin: 10px;
+  padding-top: 5px;
+  font-family: "Abril Fatface", cursive;
+  color: #000000;
 }
 .main .section-center .piano {
   width: 310px;
@@ -176,6 +184,8 @@ a {
 .main .section-center .article h3 {
   text-align: center;
   margin: 10px 0;
+  font-family: "Abril Fatface", cursive;
+  color: #FFFFFF;
 }
 .main .section-center .article .valoration {
   display: -webkit-box;
@@ -190,8 +200,8 @@ a {
   margin: 5px;
 }
 .main .section-center .article .valoration p {
-  font-family: "Raleway";
-  /*insertar estilo de font*/
+  font-family: "Raleway", sans-serif;
+  color: #FFFFFF;
 }
 .main .section-center .article .valoration .stars {
   padding-left: 10px;
@@ -203,6 +213,9 @@ a {
 .main .section-center .article .text {
   margin: 10px 25px;
   text-align: center;
+  font-family: "abril-Fatface";
+  font-style: normal;
+  color: #FFFFFF;
 }
 .main .section-center .article ul {
   display: -webkit-box;
@@ -570,13 +583,9 @@ section li {
           align-items: center;
 }
 
-<<<<<<< HEAD
 .direccion,
 .derechos {
   font-family: "Raleway", sans-serif;
-=======
-.direccion .derechos {
->>>>>>> a7cebe565ea6075a3ef1aaca0d9a5a0485417efc
   font-size: 14px;
   font-weight: 300;
   color: black;
@@ -587,9 +596,4 @@ section li {
 span {
   font-size: 18px;
   color: red;
-<<<<<<< HEAD
-}
-/*# sourceMappingURL=style.css.map */
-=======
 }/*# sourceMappingURL=style.css.map */
->>>>>>> a7cebe565ea6075a3ef1aaca0d9a5a0485417efc

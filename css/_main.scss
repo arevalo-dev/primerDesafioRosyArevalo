@@ -13,7 +13,9 @@
         background: linear-gradient($color-primary-brown-800 -1%, $color-primary-black-900 35%, $color-primary-brown-800 101.2%), no-repeat;        
         h2 {
             text-align: center;
-            margin: 10px;
+            padding-top: 5px;
+            font-family: $tipografia-abril-titulos;
+            color: $color-primary-black-900;
         }
         .piano {
             
@@ -36,6 +38,9 @@
             h3 {
                 text-align: center;
                 margin: 10px 0;
+                font-family: $tipografia-abril-titulos;
+                color: $color-primary-brown-800;
+                
             }
             .valoration {
                 display: flex;
@@ -43,8 +48,8 @@
                 align-items: center;
                 margin: 5px;
                 p {
-                    font-family: "Raleway";
-                    /*insertar estilo de font*/
+                    font-family: $tipografia-textos;
+                    color: $color-primary-brown-800;
                 }
                 .stars {
                     padding-left: 10px;
@@ -57,6 +62,9 @@
             .text {
                 margin: 10px 25px;
                 text-align: center;
+                font-family: "abril-Fatface";
+                font-style: normal;
+                color: $color-primary-brown-800;
             }
             ul {
                 display: flex;
