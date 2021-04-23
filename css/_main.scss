@@ -39,6 +39,7 @@
                 text-align: center;
                 margin: 10px 0;
                 font-family: $tipografia-abril-titulos;
+                font-size: 24px;
                 color: $color-primary-brown-800;
                 
             }
@@ -62,7 +63,7 @@
             .text {
                 margin: 10px 25px;
                 text-align: center;
-                font-family: "abril-Fatface";
+                font-family: $tipografia-textos;
                 font-style: normal;
                 color: $color-primary-brown-800;
             }
@@ -72,6 +73,11 @@
                 margin: 20px 0px;
                 li{
                     margin: 10px;
+                    font-family: $tipografia-textos;
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 12px;
+                    color: $color-primary-brown-800;
                 }
                 li:nth-of-type(1){
                     list-style-type: none;
@@ -81,13 +87,17 @@
                 border: 1px solid black;
                 border-radius: 9px;
                 background-color: $color-primary-black-900;
-                color: white;
                 width: 230px;
                 height: 35px;
                 text-align: center;
                 padding: 7px;
                 margin-bottom: 30px;
                 text-decoration: none;
+                font-family: $tipografia-textos;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 14px;
+                color: $color-primary-brown-800;
             }
         }
     }
@@ -98,7 +108,11 @@
         
         h2 {
             text-align: center;
-            margin: 40px 0;
+            margin: 40px 20px;
+            font-family: $tipografia-abril-titulos;
+            font-size: 24px;
+            color: $color-primary-black-900;
+            letter-spacing: 0.05em;
         }
         .boxing-article {
             display: flex;
@@ -114,8 +128,13 @@
                 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
                 h3 {
                     border-top: 1px dashed gray;
-                    margin-top: 20px; 
+                    margin: 15px 7px; 
                     padding-top: 20px;
+                    font-family: $tipografia-abril-titulos;
+                    font-size: 16px;
+                    color: $color-primary-black-900;
+                    letter-spacing: 0.05em;
+                    text-align: left;
                 }
                 ul {
                     display: flex;
@@ -123,6 +142,9 @@
                     margin: 20px 0px;
                     li{
                         margin: 10px;
+                        font-family: $tipografia-textos;
+                        font-size: 12px;
+                        color: $color-primary-black-900;
                     }
                     li:nth-of-type(1){
                         list-style-type: none;
@@ -141,6 +163,10 @@
                         text-align: center;
                         padding: 7px;
                         text-decoration: none;
+                        font-family: $tipografia-textos;
+                        font-size: 16px;
+                        font-weight: bold;
+                        color: $color-primary-black-900;
                     }
                     img {
                         border: 1px solid black;
@@ -166,6 +192,10 @@
             padding: 7px;
             margin: 30px 0 40px 0;
             text-decoration: none;
+            font-family: $tipografia-textos;
+            font-size: 16px;
+            font-weight: bold;
+            color: $color-primary-brown-800;
         }
     }
 }
