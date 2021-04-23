@@ -9,7 +9,7 @@
         flex-direction: column;
         justify-items: center;
         align-items: center;
-        background: linear-gradient(0deg, $color-primary-brown-800 -2.01%, $color-primary-black-900 150%), no-repeat;        
+        background: linear-gradient(0deg, $color-primary-brown-800 -5.01%, $color-primary-black-900 150%), no-repeat;        
         h2 {
             text-align: center;
             margin: 10px;
@@ -128,7 +128,9 @@
                     img {
                         border: 1px solid black;
                         border-radius: 9px;
-                        width: 80px;
+                        color: white;
+                        background-color: $color-primary-black-900;
+                        width: 35px;
                         height: 35px;
                         padding: 7px;
                     }

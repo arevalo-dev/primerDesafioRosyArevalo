@@ -30,9 +30,9 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -40,20 +40,24 @@ a {
 .header .navigation ul li {
   list-style-type: none;
   text-decoration: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 .header .navigation ul li a {
   display: none;
 }
 .header .navigation ul li a.car {
   display: block;
-  margin-top: 5px;
-  margin-right: 15px;
-  width: 10%;
-  height: 10%;
+  margin-top: 0px;
+  margin-right: 35px;
 }
 .header .navigation ul li a.car img {
-  margin-right: 20vw;
-  border: 1px solid black;
+  width: 25px;
+  height: 25px;
 }
 .header .container {
   display: -webkit-box;
@@ -139,8 +143,8 @@ a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background: -webkit-gradient(linear, left bottom, left top, color-stop(-2.01%, #FFFFFF), color-stop(150%, #000000)), no-repeat;
-  background: linear-gradient(0deg, #FFFFFF -2.01%, #000000 150%), no-repeat;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(-5.01%, #FFFFFF), color-stop(150%, #000000)), no-repeat;
+  background: linear-gradient(0deg, #FFFFFF -5.01%, #000000 150%), no-repeat;
 }
 .main .section-center h2 {
   text-align: center;
@@ -304,7 +308,9 @@ a {
 .main .section-article .boxing-article article .foot img {
   border: 1px solid black;
   border-radius: 9px;
-  width: 80px;
+  color: white;
+  background-color: #000000;
+  width: 35px;
   height: 35px;
   padding: 7px;
 }
@@ -529,12 +535,7 @@ footer section li {
   list-style: none;
   margin: 5px auto;
 }
-<<<<<<< HEAD
-footer section {
-=======
-
 footer .contacto {
->>>>>>> b16586cebaeeeb54944803be8196ba65d8930082
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -546,21 +547,10 @@ footer .contacto {
       -ms-flex-align: center;
           align-items: center;
 }
-<<<<<<< HEAD
-footer p {
-=======
-
 footer .direccion .derechos {
->>>>>>> b16586cebaeeeb54944803be8196ba65d8930082
   font-size: 14px;
   font-weight: 300;
   color: black;
-<<<<<<< HEAD
-  margin: 10px auto;
-}/*# sourceMappingURL=style.css.map */
-=======
   margin: 10px 50px;
   text-align: center;
-}
-/*# sourceMappingURL=style.css.map */
->>>>>>> b16586cebaeeeb54944803be8196ba65d8930082
+}/*# sourceMappingURL=style.css.map */
