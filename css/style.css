@@ -570,20 +570,62 @@ input {
   color: #FFFFFF;
 }
 
+@media screen and (min-width: 1024px) {
+  p {
+    margin: 20px 33%;
+  }
+
+  .nombre {
+    display: block;
+    width: 40%;
+  }
+
+  .tel {
+    width: 20%;
+    margin-left: 30%;
+    display: inline;
+  }
+
+  .mail {
+    width: 20%;
+    display: block;
+    margin-left: 30%;
+  }
+
+  .cuentanos {
+    width: 40%;
+    display: block;
+  }
+
+  .boton {
+    width: 40%;
+    display: block;
+  }
+
+  label {
+    margin-left: 30%;
+    display: block;
+  }
+}
 /*partners*/
 .partners {
   background-image: linear-gradient(177.96deg, #6F6F6F 1.72%, rgba(255, 255, 255, 0.43) 98.63%);
   width: 100vw;
   padding: 10px;
 }
-.partners h2 {
+
+h2 {
   font-family: "Abril Fatface", cursive;
   margin: 10px 40px;
   font-size: 24px;
   text-align: center;
   font-weight: 400;
 }
-.partners .left .rectangulo {
+
+.left1 .rectangulo,
+.left2 .rectangulo,
+.left3 .rectangulo,
+.left4 .rectangulo {
   width: 300px;
   height: 100px;
   background-color: black;
@@ -597,7 +639,10 @@ input {
       -ms-flex-pack: start;
           justify-content: flex-start;
 }
-.partners .left .dot {
+.left1 .dot,
+.left2 .dot,
+.left3 .dot,
+.left4 .dot {
   width: 90px;
   height: 90px;
   background-color: rgba(255, 255, 255, 0.5);
@@ -613,17 +658,25 @@ input {
       -ms-flex-align: center;
           align-items: center;
 }
-.partners .left img {
+.left1 img,
+.left2 img,
+.left3 img,
+.left4 img {
   width: 60px;
   height: 60px;
 }
-.partners .left p {
+.left1 p,
+.left2 p,
+.left3 p,
+.left4 p {
   font-family: "Raleway", sans-serif;
   font-size: 32px;
   color: white;
   margin: auto;
 }
-.partners .right .rectangulo {
+
+.right1 .rectangulo,
+.right2 .rectangulo {
   width: 300px;
   height: 100px;
   background-color: black;
@@ -637,7 +690,8 @@ input {
       -ms-flex-pack: end;
           justify-content: flex-end;
 }
-.partners .right .dot {
+.right1 .dot,
+.right2 .dot {
   width: 90px;
   height: 90px;
   background-color: rgba(255, 255, 255, 0.5);
@@ -653,17 +707,56 @@ input {
       -ms-flex-align: center;
           align-items: center;
 }
-.partners .right img {
+.right1 img,
+.right2 img {
   width: 60px;
   height: 60px;
 }
-.partners .right p {
+.right1 p,
+.right2 p {
   font-family: "Raleway", sans-serif;
   font-size: 32px;
   color: white;
   margin: auto;
 }
 
+@media screen and (min-width: 1024px) {
+  h2 {
+    font-size: 32px;
+  }
+
+  .marcas1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 20px 20px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+
+  .left1,
+.left2,
+.left3,
+.left4 {
+    margin: 20px 30px;
+  }
+
+  .marcas2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-left: 20%;
+  }
+
+  .right1,
+.right2 {
+    margin: 20px 30px;
+  }
+}
 /* codigo del footer*/
 footer {
   background-image: linear-gradient(177.96deg, rgba(255, 255, 255, 0.43) 1.72%, #6F6F6F 107.44%);
@@ -754,4 +847,32 @@ section li {
 span {
   font-size: 18px;
   color: red;
+}
+
+@media screen and (min-width: 1024px) {
+  footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+
+  section h3 {
+    margin: 20px 0;
+    text-align: left;
+  }
+  section ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  section li {
+    margin: 5px 0;
+  }
 }/*# sourceMappingURL=style.css.map */

@@ -4,87 +4,122 @@
   background-image: linear-gradient(177.96deg, #6F6F6F 1.72%, rgba(255, 255, 255, 0.43) 98.63%);
   width: 100vw;
   padding: 10px;
+}
 
+h2 {
+  font-family: $tipografia-abril-titulos;
+  margin: 10px 40px;
+  font-size: 24px;
+  text-align: center;
+  font-weight: 400;
+}
+
+.left1,
+.left2,
+.left3,
+.left4,
+  {
+  .rectangulo {
+    width: 300px;
+    height: 100px;
+    background-color: black;
+    border-radius: 50px 15px 15px 50px;
+    padding: 5px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: flex-start;
+
+
+  }
+
+  .dot {
+    width: 90px;
+    height: 90px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  img {
+    width: 60px;
+    height: 60px;
+  }
+
+  p {
+    font-family: $tipografia-textos;
+    font-size: 32px;
+    color: white;
+    margin: auto;
+  }
+
+}
+
+.right1,
+.right2 {
+  .rectangulo {
+    width: 300px;
+    height: 100px;
+    background-color: black;
+    border-radius: 15px 50px 50px 15px;
+    padding: 5px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .dot {
+    width: 90px;
+    height: 90px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  img {
+    width: 60px;
+    height: 60px;
+  }
+
+  p {
+    font-family: $tipografia-textos;
+    font-size: 32px;
+    color: white;
+    margin: auto;
+  }
+}
+
+@media screen and (min-width:1024px) {
   h2 {
-    font-family: $tipografia-abril-titulos;
-    margin: 10px 40px;
-    font-size: 24px;
-    text-align: center;
-    font-weight: 400;
+    font-size: 32px;
   }
 
-  .left {
-    .rectangulo {
-      width: 300px;
-      height: 100px;
-      background-color: black;
-      border-radius: 50px 15px 15px 50px;
-      padding: 5px;
-      margin: 20px auto;
-      display: flex;
-      justify-content: flex-start;
-
-
-    }
-
-    .dot {
-      width: 90px;
-      height: 90px;
-      background-color: rgba(255, 255, 255, 0.5);
-      border-radius: 50%;
-      border: 1px solid white;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-
-    img {
-      width: 60px;
-      height: 60px;
-    }
-
-    p {
-      font-family: $tipografia-textos;
-      font-size: 32px;
-      color: white;
-      margin: auto;
-    }
+  .marcas1 {
+    display: flex;
+    margin: 20px 20px;
+    justify-content: center;
   }
 
+  .left1,
+  .left2,
+  .left3,
+  .left4 {
+    margin: 20px 30px;
+  }
 
-  .right {
-    .rectangulo {
-      width: 300px;
-      height: 100px;
-      background-color: black;
-      border-radius: 15px 50px 50px 15px;
-      padding: 5px;
-      margin: 20px auto;
-      display: flex;
-      justify-content: flex-end;
-    }
+  .marcas2 {
+    display: flex;
+    justify-content: center;
+    margin-left: 20%;
+  }
 
-    .dot {
-      width: 90px;
-      height: 90px;
-      background-color: rgba(255, 255, 255, 0.5);
-      border-radius: 50%;
-      border: 1px solid white;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-
-    img {
-      width: 60px;
-      height: 60px;
-    }
-
-    p {
-      font-family: $tipografia-textos;
-      font-size: 32px;
-      color: white;
-      margin: auto;
-    }
+  .right1,
+  .right2 {
+    margin: 20px 30px;
   }
 }
