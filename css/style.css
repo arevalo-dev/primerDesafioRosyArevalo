@@ -15,7 +15,6 @@ a {
   display: -ms-flexbox;
   display: flex;
 }
-
 .header .content {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -26,7 +25,6 @@ a {
           flex-direction: column;
   position: relative;
 }
-
 .header .content .navigation {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -39,14 +37,12 @@ a {
           justify-content: center;
   width: 100vw;
 }
-
 .header .content .navigation a.logo img {
   margin-top: 20px;
   margin-left: 20px;
   width: 88px;
   height: 44px;
 }
-
 .header .content .navigation ul {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -60,26 +56,21 @@ a {
   margin-top: 20px;
   margin-right: 25px;
 }
-
 .header .content .navigation ul li {
   list-style-type: none;
   text-decoration: none;
 }
-
 .header .content .navigation ul li a {
   display: none;
 }
-
 .header .content .navigation ul li a.car {
   display: block;
 }
-
 .header .content .navigation ul li a.car img {
   margin-top: 15px;
   width: 25px;
   height: 25px;
 }
-
 .header .content .container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -92,7 +83,6 @@ a {
       -ms-flex-align: center;
           align-items: center;
 }
-
 .header .content .container p {
   margin-top: 40px;
   margin-bottom: 10px;
@@ -100,14 +90,12 @@ a {
   font-size: 16px;
   color: #858585;
 }
-
 .header .content .container h1 {
   margin: 10px 30px 20px 30px;
   font-family: "Abril Fatface", cursive;
   font-size: 32px;
   color: #000000;
 }
-
 .header .content .boxing {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -115,7 +103,6 @@ a {
   -ms-flex-pack: distribute;
       justify-content: space-around;
 }
-
 .header .content .boxing .buttom-black {
   display: block;
   border: 1px solid black;
@@ -130,7 +117,6 @@ a {
   padding: 7px;
   text-decoration: none;
 }
-
 .header .content .boxing .buttom-white {
   display: block;
   border: 1px solid black;
@@ -145,16 +131,13 @@ a {
   padding: 7px;
   text-decoration: none;
 }
-
 .header .content .pianoHeader {
   margin-top: 40px;
   width: 341.69px;
   height: 244px;
   -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
       align-self: center;
 }
-
 .header .social {
   display: none;
   width: 0vw;
@@ -204,7 +187,6 @@ a {
     width: 589px;
     height: 454px;
     -ms-flex-item-align: center;
-        -ms-grid-row-align: center;
         align-self: center;
   }
   .header .social {
@@ -217,7 +199,6 @@ a {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    position: -webkit-sticky;
     position: sticky;
     top: 0;
     margin-top: 550px;
@@ -228,7 +209,6 @@ a {
     margin-top: 20px;
   }
 }
-
 .main {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -238,7 +218,6 @@ a {
       -ms-flex-direction: column;
           flex-direction: column;
 }
-
 .main .section-center {
   position: relative;
   top: 0;
@@ -258,7 +237,6 @@ a {
   background: -webkit-gradient(linear, left top, left bottom, color-stop(-1%, #FFFFFF), color-stop(35%, #000000), color-stop(101.2%, #FFFFFF)), no-repeat;
   background: linear-gradient(#FFFFFF -1%, #000000 35%, #FFFFFF 101.2%), no-repeat;
 }
-
 .main .section-center h2 {
   position: relative;
   top: 0;
@@ -269,7 +247,6 @@ a {
   font-family: "Abril Fatface", cursive;
   color: #000000;
 }
-
 .main .section-center .piano {
   position: relative;
   top: 0;
@@ -278,19 +255,6 @@ a {
   width: 310px;
   height: 245px;
 }
-<<<<<<< HEAD
-=======
-
-.main .section-center video {
-  position: absolute;
-  top: 120px;
-  z-index: 2;
-  width: 100vw;
-  height: 25vh;
-  opacity: 15%;
-}
-
->>>>>>> d9c5e30b71b44c75410319eb8bd3460bdd3cc2e7
 .main .section-center .article {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -307,7 +271,6 @@ a {
           align-items: center;
   color: #FFFFFF;
 }
-
 .main .section-center .article h3 {
   text-align: center;
   margin: 10px 0;
@@ -315,7 +278,6 @@ a {
   font-size: 24px;
   color: #FFFFFF;
 }
-
 .main .section-center .article .valoration {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -328,21 +290,17 @@ a {
           align-items: center;
   margin: 5px;
 }
-
 .main .section-center .article .valoration p {
   font-family: "Raleway", sans-serif;
   color: #FFFFFF;
 }
-
 .main .section-center .article .valoration .stars {
   padding-left: 10px;
 }
-
 .main .section-center .article .valoration .stars img {
   width: 15px;
   height: 15px;
 }
-
 .main .section-center .article .text {
   margin: 10px 25px;
   text-align: center;
@@ -350,7 +308,6 @@ a {
   font-style: normal;
   color: #FFFFFF;
 }
-
 .main .section-center .article ul {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -361,7 +318,6 @@ a {
           flex-direction: initial;
   margin: 20px 0px;
 }
-
 .main .section-center .article ul li {
   margin: 10px;
   font-family: "Raleway", sans-serif;
@@ -371,11 +327,9 @@ a {
   color: #FFFFFF;
   list-style-type: square;
 }
-
 .main .section-center .article ul li:nth-of-type(1) {
   list-style-type: none;
 }
-
 .main .section-center .article .buttom-black {
   border: 1px solid black;
   border-radius: 9px;
@@ -392,7 +346,6 @@ a {
   font-size: 14px;
   color: #FFFFFF;
 }
-<<<<<<< HEAD
 .main .section-center video {
   position: absolute;
   top: 120px;
@@ -401,9 +354,6 @@ a {
   height: 25vh;
   opacity: 15%;
 }
-=======
-
->>>>>>> d9c5e30b71b44c75410319eb8bd3460bdd3cc2e7
 .main .section-article {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -416,7 +366,6 @@ a {
       -ms-flex-align: center;
           align-items: center;
 }
-
 .main .section-article h2 {
   text-align: center;
   margin: 40px 20px;
@@ -425,7 +374,6 @@ a {
   color: #000000;
   letter-spacing: 0.05em;
 }
-
 .main .section-article .boxing-article {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -435,7 +383,6 @@ a {
       -ms-flex-direction: column;
           flex-direction: column;
 }
-
 .main .section-article .boxing-article article {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -453,7 +400,6 @@ a {
   -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
           box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-
 .main .section-article .boxing-article article h3 {
   border-top: 1px dashed gray;
   margin: 15px 7px;
@@ -464,7 +410,6 @@ a {
   letter-spacing: 0.05em;
   text-align: left;
 }
-
 .main .section-article .boxing-article article ul {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -475,7 +420,6 @@ a {
           flex-direction: initial;
   margin: 20px 0px;
 }
-
 .main .section-article .boxing-article article ul li {
   margin: 10px;
   font-family: "Raleway", sans-serif;
@@ -483,11 +427,9 @@ a {
   color: #000000;
   list-style-type: square;
 }
-
 .main .section-article .boxing-article article ul li:nth-of-type(1) {
   list-style-type: none;
 }
-
 .main .section-article .boxing-article article .foot {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -495,7 +437,6 @@ a {
   -ms-flex-pack: distribute;
       justify-content: space-around;
 }
-
 .main .section-article .boxing-article article .foot .buttom-white {
   border: 1px solid black;
   border-radius: 9px;
@@ -511,7 +452,6 @@ a {
   font-weight: bold;
   color: #000000;
 }
-
 .main .section-article .boxing-article article .foot img {
   border: 1px solid black;
   border-radius: 9px;
@@ -521,7 +461,6 @@ a {
   height: 35px;
   padding: 7px;
 }
-
 .main .section-article .buttom-black {
   border: 1px solid black;
   border-radius: 9px;
@@ -548,9 +487,6 @@ a {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
   }
   .main .section-center .box .piano {
     position: absolute;
@@ -777,7 +713,6 @@ a {
     color: #FFFFFF;
   }
 }
-<<<<<<< HEAD
 /*
 
 .main {
@@ -809,9 +744,6 @@ a {
     }
 
     */
-=======
-
->>>>>>> d9c5e30b71b44c75410319eb8bd3460bdd3cc2e7
 .form {
   padding: 10px;
   background-size: cover;
@@ -885,34 +817,39 @@ input {
   p {
     margin: 20px 33%;
   }
+
   .nombre {
     display: block;
     width: 40%;
   }
+
   .tel {
     width: 20%;
     margin-left: 30%;
     display: inline;
   }
+
   .mail {
     width: 20%;
     display: block;
     margin-left: 30%;
   }
+
   .cuentanos {
     width: 40%;
     display: block;
   }
+
   .boton {
     width: 40%;
     display: block;
   }
+
   label {
     margin-left: 30%;
     display: block;
   }
 }
-
 /*partners*/
 .partners {
   background-image: linear-gradient(177.96deg, #6F6F6F 1.72%, rgba(255, 255, 255, 0.43) 98.63%);
@@ -942,7 +879,6 @@ h2 {
       -ms-flex-pack: start;
           justify-content: flex-start;
 }
-
 .left .dot {
   width: 90px;
   height: 90px;
@@ -959,12 +895,10 @@ h2 {
       -ms-flex-align: center;
           align-items: center;
 }
-
 .left img {
   width: 60px;
   height: 60px;
 }
-
 .left p {
   font-family: "Raleway", sans-serif;
   font-size: 32px;
@@ -990,7 +924,6 @@ h2 {
       -ms-flex-pack: end;
           justify-content: flex-end;
 }
-
 .right .dot {
   width: 90px;
   height: 90px;
@@ -1007,12 +940,10 @@ h2 {
       -ms-flex-align: center;
           align-items: center;
 }
-
 .right img {
   width: 60px;
   height: 60px;
 }
-
 .right p {
   font-family: "Raleway", sans-serif;
   font-size: 32px;
@@ -1024,12 +955,14 @@ h2 {
   h2 {
     font-size: 32px;
   }
+
   div {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     margin: 0 10%;
   }
+
   .marcas1 {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1043,9 +976,11 @@ h2 {
         -ms-flex-direction: column;
             flex-direction: column;
   }
+
   .left {
     margin: 20px 30px;
   }
+
   .marcas2 {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1059,11 +994,11 @@ h2 {
         -ms-flex-direction: column;
             flex-direction: column;
   }
+
   .right {
     margin: 20px 30px;
   }
 }
-
 /* codigo del footer*/
 footer {
   background-image: linear-gradient(177.96deg, rgba(255, 255, 255, 0.43) 1.72%, #6F6F6F 107.44%);
@@ -1107,7 +1042,6 @@ section h3 {
   font-size: 14;
   margin: 20px auto;
 }
-
 section ul {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1120,7 +1054,6 @@ section ul {
       -ms-flex-align: center;
           align-items: center;
 }
-
 section li {
   font-family: "Raleway", sans-serif;
   font-size: 12px;
@@ -1168,6 +1101,7 @@ span {
         -ms-flex-direction: row;
             flex-direction: row;
   }
+
   section h3 {
     margin: 20px 0;
     text-align: left;
@@ -1183,5 +1117,4 @@ span {
   section li {
     margin: 5px 0;
   }
-}
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
