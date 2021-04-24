@@ -628,10 +628,7 @@ h2 {
   font-weight: 400;
 }
 
-.left1 .rectangulo,
-.left2 .rectangulo,
-.left3 .rectangulo,
-.left4 .rectangulo {
+.left .rectangulo {
   width: 300px;
   height: 100px;
   background-color: black;
@@ -646,10 +643,7 @@ h2 {
           justify-content: flex-start;
 }
 
-.left1 .dot,
-.left2 .dot,
-.left3 .dot,
-.left4 .dot {
+.left .dot {
   width: 90px;
   height: 90px;
   background-color: rgba(255, 255, 255, 0.5);
@@ -666,26 +660,23 @@ h2 {
           align-items: center;
 }
 
-.left1 img,
-.left2 img,
-.left3 img,
-.left4 img {
+.left img {
   width: 60px;
   height: 60px;
 }
 
-.left1 p,
-.left2 p,
-.left3 p,
-.left4 p {
+.left p {
   font-family: "Raleway", sans-serif;
   font-size: 32px;
   color: white;
   margin: auto;
 }
 
-.right1 .rectangulo,
-.right2 .rectangulo {
+.marcas2 {
+  display: none;
+}
+
+.right .rectangulo {
   width: 300px;
   height: 100px;
   background-color: black;
@@ -700,8 +691,7 @@ h2 {
           justify-content: flex-end;
 }
 
-.right1 .dot,
-.right2 .dot {
+.right .dot {
   width: 90px;
   height: 90px;
   background-color: rgba(255, 255, 255, 0.5);
@@ -718,14 +708,12 @@ h2 {
           align-items: center;
 }
 
-.right1 img,
-.right2 img {
+.right img {
   width: 60px;
   height: 60px;
 }
 
-.right1 p,
-.right2 p {
+.right p {
   font-family: "Raleway", sans-serif;
   font-size: 32px;
   color: white;
@@ -736,32 +724,42 @@ h2 {
   h2 {
     font-size: 32px;
   }
+  div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0 10%;
+  }
   .marcas1 {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    margin: 20px 20px;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    margin: 0 auto;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
-  .left1,
-  .left2,
-  .left3,
-  .left4 {
+  .left {
     margin: 20px 30px;
   }
   .marcas2 {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    margin: 0 auto;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    margin-left: 20%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
-  .right1,
-  .right2 {
+  .right {
     margin: 20px 30px;
   }
 }
