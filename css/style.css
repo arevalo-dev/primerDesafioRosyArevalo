@@ -10,7 +10,6 @@ a {
 }
 
 .header {
-  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -274,7 +273,7 @@ a {
   text-align: center;
   margin: 10px 0;
   font-family: "Abril Fatface", cursive;
-  font-size: 24px;
+  font-size: 20px;
   color: #FFFFFF;
 }
 .main .section-center .article .valoration {
