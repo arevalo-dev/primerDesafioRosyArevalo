@@ -13,7 +13,7 @@ footer {
   margin: 0 auto 20px;
 }
 
-ul {
+.redes {
   display: flex;
   justify-content: center;
   margin: 10px auto;
@@ -75,21 +75,46 @@ span {
   footer {
     display: flex;
     flex-direction: row;
-  }
+    flex-wrap: wrap;
+    text-align: left;
+    justify-self: start;
 
-  section {
-    h3 {
-      margin: 20px 0;
+    .logo-footer {
+      order: 1;
+      width: 30%;
+      flex-grow: 2;
+      margin: 10px 5%;
+    }
+
+    section {
+      order: 2;
+      text-align: right;
+      width: 30%;
+      flex-grow: 5;
+    }
+
+    .redes {
+      order: 3;
+      flex-grow: 1;
+      width: 30%;
+      margin-top: 10px;
+    }
+
+
+    .derechos {
+      flex-grow: 8;
+      width: 60%;
+      order: 4;
       text-align: left;
+      margin-top: 10px;
     }
 
-    ul {
-      display: flex;
-      align-items: flex-start;
+    .credito {
+      flex-grow: 12;
+      width: 100%;
+      margin-top: 60px;
+      order: 5
     }
 
-    li {
-      margin: 5px 0;
-    }
   }
 }

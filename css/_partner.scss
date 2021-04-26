@@ -88,45 +88,32 @@ h2 {
     color: white;
     margin: auto;
   }
-
-
 }
 
-
 @media screen and (min-width:1024px) {
-  h2 {
-    font-size: 32px;
+  .partners {
+    h2 {
+      font-size: 32px;
+    }
+
+    div {
+      display: flex;
+      margin: 0 10%;
+
+    }
+
+    .marcas1 {
+      display: flex;
+      justify-content: center;
+      margin: 0 auto;
+      flex-direction: column;
+    }
+
+    .marcas2 {
+      display: flex;
+      margin: 0 auto;
+      justify-content: center;
+      flex-direction: column;
+    }
   }
-
-  div {
-    display: flex;
-    margin: 0 10%;
-
-  }
-
-  .marcas1 {
-    display: flex;
-    justify-content: center;
-    margin: 0 auto;
-    flex-direction: column;
-
-  }
-
-  .left {
-    margin: 20px 30px;
-  }
-
-  .marcas2 {
-    display: flex;
-    margin: 0 auto;
-    justify-content: center;
-    flex-direction: column;
-  }
-
-
-  .right {
-    margin: 20px 30px;
-  }
-
-
 }

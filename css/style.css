@@ -570,7 +570,7 @@ a {
           justify-content: center;
 }
 
-h2 {
+.form h2 {
   font-family: "Abril Fatface", cursive;
   text-align: center;
   font-weight: 400;
@@ -578,7 +578,7 @@ h2 {
   margin: 20px auto;
 }
 
-p {
+.form p {
   font-family: "Raleway", sans-serif;
   font-weight: 400;
   font-size: 16px;
@@ -586,13 +586,13 @@ p {
   margin: 10px auto;
 }
 
-label {
+.form label {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 16px;
 }
 
-input {
+.form input {
   background: rgba(0, 0, 0, 0.75);
   width: 100%;
   margin: 20px auto;
@@ -601,11 +601,11 @@ input {
   padding: 10px;
 }
 
-.cuentanos {
+.form .cuentanos {
   height: 150px;
 }
 
-.boton {
+.form .boton {
   background: black;
   width: 100%;
   margin: 20px auto;
@@ -619,32 +619,38 @@ input {
 }
 
 @media screen and (min-width: 1024px) {
-  p {
+  .form h2 {
+    font-size: 32px;
+  }
+  .form p {
     margin: 20px 33%;
   }
-  .nombre {
+  .form .nombre {
     display: block;
     width: 40%;
   }
-  .tel {
-    width: 20%;
+  .form div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     margin-left: 30%;
-    display: inline;
+    margin-right: 30%;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
-  .mail {
-    width: 20%;
-    display: block;
-    margin-left: 30%;
+  .form .tel {
+    width: 100%;
   }
-  .cuentanos {
+  .form .cuentanos {
     width: 40%;
     display: block;
   }
-  .boton {
+  .form .boton {
     width: 40%;
     display: block;
   }
-  label {
+  .form label {
     margin-left: 30%;
     display: block;
   }
@@ -758,16 +764,16 @@ h2 {
 }
 
 @media screen and (min-width: 1024px) {
-  h2 {
+  .partners h2 {
     font-size: 32px;
   }
-  div {
+  .partners div {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     margin: 0 10%;
   }
-  .marcas1 {
+  .partners .marcas1 {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -780,10 +786,7 @@ h2 {
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  .left {
-    margin: 20px 30px;
-  }
-  .marcas2 {
+  .partners .marcas2 {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -795,9 +798,6 @@ h2 {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-  }
-  .right {
-    margin: 20px 30px;
   }
 }
 
@@ -822,7 +822,7 @@ footer {
   margin: 0 auto 20px;
 }
 
-ul {
+.redes {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -904,21 +904,61 @@ span {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-  }
-  section h3 {
-    margin: 20px 0;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
     text-align: left;
+    justify-self: start;
   }
-  section ul {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
+  footer .logo-footer {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+    width: 30%;
+    -webkit-box-flex: 2;
+        -ms-flex-positive: 2;
+            flex-grow: 2;
+    margin: 10px 5%;
   }
-  section li {
-    margin: 5px 0;
+  footer section {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+    text-align: right;
+    width: 30%;
+    -webkit-box-flex: 5;
+        -ms-flex-positive: 5;
+            flex-grow: 5;
+  }
+  footer .redes {
+    -webkit-box-ordinal-group: 4;
+        -ms-flex-order: 3;
+            order: 3;
+    -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
+    width: 30%;
+    margin-top: 10px;
+  }
+  footer .derechos {
+    -webkit-box-flex: 8;
+        -ms-flex-positive: 8;
+            flex-grow: 8;
+    width: 60%;
+    -webkit-box-ordinal-group: 5;
+        -ms-flex-order: 4;
+            order: 4;
+    text-align: left;
+    margin-top: 10px;
+  }
+  footer .credito {
+    -webkit-box-flex: 12;
+        -ms-flex-positive: 12;
+            flex-grow: 12;
+    width: 100%;
+    margin-top: 60px;
+    -webkit-box-ordinal-group: 6;
+        -ms-flex-order: 5;
+            order: 5;
   }
 }
 /*# sourceMappingURL=style.css.map */

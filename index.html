@@ -150,10 +150,16 @@
     <form action="">
       <label for="nombre">Nombre</label>
       <input class="nombre" type="text" name="nombre" placeholder="">
-      <label for="Telefono">Teléfono</label>
-      <input class="tel" type="text" placeholder="">
-      <label for="email">Email</label>
-      <input class="mail" type="email" placeholder="">
+      <div>
+        <section>
+          <label for="telefono">Teléfono</label>
+          <input class="tel" type="text" placeholder="">
+        </section>
+        <section>
+          <label for="email">Email</label>
+          <input class="mail" type="email" placeholder="">
+        </section>
+      </div>
       <label for="coment">Cuéntanos más</label>
       <input class="cuentanos" type="text" placeholder="">
       <input class="boton" type="button" value="Enviar">
@@ -219,8 +225,6 @@
     </div>
   </section>
 
-
-
   <!--Footer-->
 
   <footer>
@@ -228,12 +232,11 @@
       <img src="./assets/logo_footer.png" alt="Logo_footer">
     </seccion>
     <!-- redes sociales-->
-    <ul>
+    <ul class="redes">
       <li><a href=""><img src="./assets/social/Group 57.svg" alt="facebook"></a></li>
       <li><a href=""><img src="./assets/social/Group 2288.svg" alt="twitter"></a></li>
       <li><a href=""><img src="./assets/social/Group 62.svg" alt="likedin"></a></li>
     </ul>
-
 
     <section>
       <h3>Nosotros</h3>
@@ -247,11 +250,12 @@
     <section class="contacto">
       <h3>Contáctanos</h3>
       <p class="direccion"> México Tonalá 10, Roma Nte., Cuauhtémoc, 03800 Ciudad de México, CDMX.</p>
-      <p class="derechos">© Pazioli 2021, todos los derechos reservados.</p>
-      <p class="credito">Powered with <span>♥</span> by<br>
-        <strong>DevKoore</strong>
-      </p>
     </section>
+    <p class="derechos">© Pazioli 2021, todos los derechos reservados.</p>
+    <p class="credito">Powered with <span>♥</span> by<br>
+      <strong>DevKoore</strong>
+    </p>
+
   </footer>
 
 </body>
