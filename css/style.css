@@ -310,6 +310,9 @@ a {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 .main .section-article h2 {
   text-align: center;
@@ -325,9 +328,8 @@ a {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 .main .section-article .boxing-article .article-sale {
   display: -webkit-box;
@@ -423,7 +425,7 @@ a {
       -ms-flex-align: center;
           align-items: center;
   padding: 7px;
-  margin: 30px 0 40px 0;
+  margin: 0 auto;
   text-decoration: none;
   font-family: "Raleway", sans-serif;
   font-size: 16px;
