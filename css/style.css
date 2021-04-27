@@ -10,11 +10,7 @@ a {
 }
 
 .header {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-.header .content {
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -22,55 +18,45 @@ a {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  position: relative;
 }
-.header .content .navigation {
+.header .navigation {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  width: 100vw;
+  width: 100%;
 }
-.header .content .navigation a.logo img {
+.header .navigation a.logo img {
   margin-top: 20px;
   margin-left: 20px;
   width: 88px;
   height: 44px;
 }
-.header .content .navigation ul {
+.header .navigation ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   margin-top: 20px;
-  margin-right: 25px;
+  margin-right: 0;
 }
-.header .content .navigation ul li {
+.header .navigation ul li {
   list-style-type: none;
   text-decoration: none;
 }
-.header .content .navigation ul li a {
+.header .navigation ul li a {
   display: none;
 }
-.header .content .navigation ul li a.car {
+.header .navigation ul li a.car {
   display: block;
 }
-.header .content .navigation ul li a.car img {
-  margin-top: 15px;
+.header .navigation ul li a.car img {
+  margin-left: 0px;
   width: 25px;
   height: 25px;
 }
-.header .content .container {
+.header .container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -82,27 +68,27 @@ a {
       -ms-flex-align: center;
           align-items: center;
 }
-.header .content .container p {
+.header .container p {
   margin-top: 40px;
   margin-bottom: 10px;
   font-family: "Raleway", sans-serif;
   font-size: 16px;
   color: #858585;
 }
-.header .content .container h1 {
+.header .container h1 {
   margin: 10px 30px 20px 30px;
   font-family: "Abril Fatface", cursive;
   font-size: 32px;
   color: #000000;
 }
-.header .content .boxing {
+.header .boxing {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
 }
-.header .content .boxing .buttom-black {
+.header .boxing .buttom-black {
   display: block;
   border: 1px solid black;
   border-radius: 9px;
@@ -116,7 +102,7 @@ a {
   padding: 7px;
   text-decoration: none;
 }
-.header .content .boxing .buttom-white {
+.header .boxing .buttom-white {
   display: block;
   border: 1px solid black;
   border-radius: 9px;
@@ -130,32 +116,26 @@ a {
   padding: 7px;
   text-decoration: none;
 }
-.header .content .pianoHeader {
+.header .pianoHeader {
   margin-top: 40px;
   width: 341.69px;
   height: 244px;
   -ms-flex-item-align: center;
       align-self: center;
 }
-.header .social {
-  display: none;
-}
 
 @media screen and (min-width: 1024px) {
-  .header .content .navigation {
-    width: 98vw;
-  }
-  .header .content .navigation ul li {
+  .header .navigation ul li {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
   }
-  .header .content .navigation ul li a {
+  .header .navigation ul li a {
     display: inline-block;
     color: #000000;
     font-family: "Raleway", sans-serif;
   }
-  .header .content .navigation ul li a.contact {
+  .header .navigation ul li a.contact {
     border: 1px solid black;
     border-radius: 9px;
     background-color: #000000;
@@ -168,43 +148,24 @@ a {
     padding: 5px;
     text-decoration: none;
   }
-  .header .content .container h1 {
+  .header .container h1 {
     font-size: 54px;
   }
-  .header .content .boxing {
+  .header .boxing {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    margin: 0 325px;
+    margin: 0 280px;
   }
-  .header .content .pianoHeader {
+  .header .pianoHeader {
     margin-top: 40px;
     width: 589px;
     height: 454px;
     -ms-flex-item-align: center;
         align-self: center;
-  }
-  .header .social {
-    width: 27px;
-    height: 100px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    position: sticky;
-    top: 0;
-    margin-top: 550px;
-  }
-  .header .social img {
-    width: 25px;
-    height: 25px;
-    margin-top: 20px;
   }
 }
 .main {
@@ -218,9 +179,8 @@ a {
 }
 .main .section-center {
   position: relative;
-  top: 0;
-  left: 0;
-  z-index: 1;
+  width: 100vw;
+  height: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -228,32 +188,20 @@ a {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  justify-items: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(-1%, #FFFFFF), color-stop(35%, #000000), color-stop(101.2%, #FFFFFF)), no-repeat;
-  background: linear-gradient(#FFFFFF -1%, #000000 35%, #FFFFFF 101.2%), no-repeat;
+  background: -webkit-gradient(linear, left top, left bottom, from(#FFFFFF), color-stop(14.06%, rgba(255, 255, 255, 0.820101)), color-stop(37.19%, rgba(0, 0, 0, 0.75)), color-stop(55.32%, rgba(0, 0, 0, 0.75)), color-stop(88.52%, rgba(255, 255, 255, 0.6454)), color-stop(97.7%, #FFFFFF));
+  background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0.820101) 14.06%, rgba(0, 0, 0, 0.75) 37.19%, rgba(0, 0, 0, 0.75) 55.32%, rgba(255, 255, 255, 0.6454) 88.52%, #FFFFFF 97.7%);
 }
 .main .section-center h2 {
-  position: relative;
-  top: 0;
-  left: 0;
-  z-index: 2;
   text-align: center;
-  padding-top: 5px;
   font-family: "Abril Fatface", cursive;
+  font-size: 20px;
   color: #000000;
 }
-.main .section-center .piano {
-  position: relative;
-  top: 0;
-  left: 0;
-  z-index: 3;
+.main .section-center .box .piano {
   width: 310px;
   height: 245px;
 }
-.main .section-center .article {
+.main .section-center .box .article {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -269,14 +217,14 @@ a {
           align-items: center;
   color: #FFFFFF;
 }
-.main .section-center .article h3 {
+.main .section-center .box .article h3 {
   text-align: center;
   margin: 10px 0;
   font-family: "Abril Fatface", cursive;
   font-size: 20px;
   color: #FFFFFF;
 }
-.main .section-center .article .valoration {
+.main .section-center .box .article .valoration {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -288,25 +236,25 @@ a {
           align-items: center;
   margin: 5px;
 }
-.main .section-center .article .valoration p {
+.main .section-center .box .article .valoration p {
   font-family: "Raleway", sans-serif;
   color: #FFFFFF;
 }
-.main .section-center .article .valoration .stars {
+.main .section-center .box .article .valoration .stars {
   padding-left: 10px;
 }
-.main .section-center .article .valoration .stars img {
+.main .section-center .box .article .valoration .stars img {
   width: 15px;
   height: 15px;
 }
-.main .section-center .article .text {
+.main .section-center .box .article .text {
   margin: 10px 25px;
   text-align: center;
   font-family: "Raleway", sans-serif;
   font-style: normal;
   color: #FFFFFF;
 }
-.main .section-center .article ul {
+.main .section-center .box .article ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -316,7 +264,7 @@ a {
           flex-direction: initial;
   margin: 20px 0px;
 }
-.main .section-center .article ul li {
+.main .section-center .box .article ul li {
   margin: 10px;
   font-family: "Raleway", sans-serif;
   font-style: normal;
@@ -325,10 +273,10 @@ a {
   color: #FFFFFF;
   list-style-type: square;
 }
-.main .section-center .article ul li:nth-of-type(1) {
+.main .section-center .box .article ul li:nth-of-type(1) {
   list-style-type: none;
 }
-.main .section-center .article .buttom-black {
+.main .section-center .box .article .buttom-black {
   border: 1px solid black;
   border-radius: 9px;
   background-color: #000000;
@@ -346,11 +294,13 @@ a {
 }
 .main .section-center video {
   position: absolute;
-  top: 120px;
-  z-index: 2;
-  width: 100vw;
-  height: 25vh;
-  opacity: 15%;
+  top: 0;
+  left: 0;
+  -o-object-fit: cover;
+     object-fit: cover;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
 }
 .main .section-article {
   display: -webkit-box;
@@ -360,9 +310,6 @@ a {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
 .main .section-article h2 {
   text-align: center;
@@ -376,15 +323,13 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
 }
-.main .section-article .boxing-article article {
+.main .section-article .boxing-article .article-sale {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -395,23 +340,27 @@ a {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  width: 250px;
+  height: 380px;
   padding: 10px;
   margin: 20px 0;
   border-radius: 5px;
   -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
           box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-.main .section-article .boxing-article article h3 {
+.main .section-article .boxing-article .article-sale .piano-sale {
+  width: 100%;
+  height: 100%;
+}
+.main .section-article .boxing-article .article-sale .body-article h3 {
   border-top: 1px dashed gray;
-  margin: 15px 7px;
-  padding-top: 20px;
   font-family: "Abril Fatface", cursive;
   font-size: 16px;
   color: #000000;
   letter-spacing: 0.05em;
   text-align: left;
 }
-.main .section-article .boxing-article article ul {
+.main .section-article .boxing-article .article-sale .body-article ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -421,24 +370,24 @@ a {
           flex-direction: initial;
   margin: 20px 0px;
 }
-.main .section-article .boxing-article article ul li {
+.main .section-article .boxing-article .article-sale .body-article ul li {
   margin: 10px;
   font-family: "Raleway", sans-serif;
   font-size: 12px;
   color: #000000;
   list-style-type: square;
 }
-.main .section-article .boxing-article article ul li:nth-of-type(1) {
+.main .section-article .boxing-article .article-sale .body-article ul li:nth-of-type(1) {
   list-style-type: none;
 }
-.main .section-article .boxing-article article .foot {
+.main .section-article .boxing-article .article-sale .body-article .foot {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
 }
-.main .section-article .boxing-article article .foot .buttom-white {
+.main .section-article .boxing-article .article-sale .body-article .foot .buttom-white {
   border: 1px solid black;
   border-radius: 9px;
   background-color: #FFFFFF;
@@ -453,7 +402,7 @@ a {
   font-weight: bold;
   color: #000000;
 }
-.main .section-article .boxing-article article .foot img {
+.main .section-article .boxing-article .article-sale .body-article .foot img {
   border: 1px solid black;
   border-radius: 9px;
   color: white;
@@ -470,6 +419,9 @@ a {
   width: 150px;
   height: 35px;
   text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   padding: 7px;
   margin: 30px 0 40px 0;
   text-decoration: none;
@@ -479,6 +431,172 @@ a {
   color: #FFFFFF;
 }
 
+@media screen and (min-width: 1024px) {
+  .main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .main .section-center {
+    position: relative;
+    width: 100vw;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    background: -webkit-gradient(linear, left top, left bottom, from(#FFFFFF), color-stop(14.06%, rgba(255, 255, 255, 0.820101)), color-stop(37.19%, rgba(0, 0, 0, 0.75)), color-stop(55.32%, rgba(0, 0, 0, 0.75)), color-stop(88.52%, rgba(255, 255, 255, 0.6454)), color-stop(97.7%, #FFFFFF));
+    background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0.820101) 14.06%, rgba(0, 0, 0, 0.75) 37.19%, rgba(0, 0, 0, 0.75) 55.32%, rgba(255, 255, 255, 0.6454) 88.52%, #FFFFFF 97.7%);
+  }
+  .main .section-center h2 {
+    text-align: center;
+    font-family: "Abril Fatface", cursive;
+    font-size: 36px;
+    color: #000000;
+  }
+  .main .section-center .box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+  }
+  .main .section-center .box .piano {
+    width: 710px;
+    height: 425px;
+  }
+  .main .section-center .box .article {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    color: #FFFFFF;
+  }
+  .main .section-center .box .article h3 {
+    text-align: center;
+    margin: 10px 0;
+    font-family: "Abril Fatface", cursive;
+    font-size: 24px;
+    color: #FFFFFF;
+  }
+
+  .section-article h2 {
+    font-size: 36px;
+  }
+  .section-article .boxing-article {
+    margin: 0 20px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .section-article .boxing-article .article-sale {
+    position: relative;
+  }
+  .section-article .boxing-article .article-sale .piano-sale {
+    position: absolute;
+    top: -50px;
+    left: 20px;
+  }
+  .section-article .boxing-article .article-sale .body-article {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .section-article .boxing-article .article-sale .body-article h3 {
+    border-top: 1px dashed gray;
+    font-family: "Abril Fatface", cursive;
+    font-size: 16px;
+    color: #000000;
+    letter-spacing: 0.05em;
+    text-align: left;
+  }
+  .section-article .boxing-article .article-sale .body-article ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: initial;
+    -webkit-box-direction: initial;
+        -ms-flex-direction: initial;
+            flex-direction: initial;
+    margin: 20px 0px;
+  }
+  .section-article .boxing-article .article-sale .body-article ul li {
+    margin: 10px;
+    font-family: "Raleway", sans-serif;
+    font-size: 12px;
+    color: #000000;
+    list-style-type: square;
+  }
+  .section-article .boxing-article .article-sale .body-article ul li:nth-of-type(1) {
+    list-style-type: none;
+  }
+  .section-article .boxing-article .article-sale .body-article .foot {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .section-article .boxing-article .article-sale .body-article .foot .buttom-white {
+    border: 1px solid black;
+    border-radius: 9px;
+    background-color: #FFFFFF;
+    color: black;
+    width: 210px;
+    height: 35px;
+    text-align: center;
+    padding: 7px;
+    text-decoration: none;
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #000000;
+  }
+  .section-article .boxing-article .article-sale .body-article .foot img {
+    border: 1px solid black;
+    border-radius: 9px;
+    color: white;
+    background-color: #000000;
+    width: 35px;
+    height: 35px;
+    padding: 7px;
+  }
+  .section-article .buttom-black {
+    border: 1px solid black;
+    border-radius: 9px;
+    background-color: #000000;
+    color: white;
+    width: 150px;
+    height: 35px;
+    text-align: center;
+    padding: 7px;
+    margin: 30px 0 40px 0;
+    text-decoration: none;
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #FFFFFF;
+  }
+}
 .form {
   padding: 10px;
   background-size: cover;
