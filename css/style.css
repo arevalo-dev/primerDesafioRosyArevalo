@@ -9,6 +9,10 @@ a {
   text-decoration: none;
 }
 
+.social {
+  display: none;
+}
+
 .header {
   width: 100%;
   display: -webkit-box;
@@ -23,6 +27,8 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   width: 100%;
 }
 .header .navigation a.logo img {
@@ -125,10 +131,22 @@ a {
 }
 
 @media screen and (min-width: 1024px) {
-  .header .navigation ul li {
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+  .social {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    position: fixed;
+    top: 115px;
+    left: 1180px;
+    z-index: 1;
+  }
+
+  .header .navigation ul {
+    margin-left: 370px;
   }
   .header .navigation ul li a {
     display: inline-block;
@@ -197,9 +215,19 @@ a {
   font-size: 20px;
   color: #000000;
 }
+.main .section-center .box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
 .main .section-center .box .piano {
   width: 310px;
   height: 245px;
+  margin: 0 auto;
 }
 .main .section-center .box .article {
   display: -webkit-box;
@@ -447,6 +475,7 @@ a {
     position: relative;
     width: 100vw;
     height: 100%;
+    margin: 50px 0;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -475,6 +504,7 @@ a {
   .main .section-center .box .piano {
     width: 710px;
     height: 425px;
+    margin: 0 50px;
   }
   .main .section-center .box .article {
     display: -webkit-box;
@@ -484,35 +514,50 @@ a {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
     color: #FFFFFF;
+    margin-left: 25px;
   }
   .main .section-center .box .article h3 {
-    text-align: center;
-    margin: 10px 0;
-    font-family: "Abril Fatface", cursive;
+    padding-left: 25px;
+    text-align: left;
     font-size: 24px;
-    color: #FFFFFF;
+  }
+  .main .section-center .box .article .text {
+    text-align: left;
+    padding: 0;
+  }
+  .main .section-center .box .article ul {
+    padding-left: 20px;
+  }
+  .main .section-center .box .article .valoration {
+    padding-left: 20px;
+  }
+  .main .section-center .box .article .buttom-black {
+    margin-left: 22px;
   }
 
   .section-article h2 {
     font-size: 36px;
   }
   .section-article .boxing-article {
-    margin: 0 20px;
+    margin-top: 80px;
+    margin-bottom: 20px;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
   }
   .section-article .boxing-article .article-sale {
     position: relative;
+    width: 100px;
+    height: 150px;
   }
   .section-article .boxing-article .article-sale .piano-sale {
     position: absolute;
-    top: -50px;
-    left: 20px;
+    top: -200px;
+    left: 5px;
   }
   .section-article .boxing-article .article-sale .body-article {
     display: -webkit-box;
@@ -524,11 +569,6 @@ a {
             flex-direction: column;
   }
   .section-article .boxing-article .article-sale .body-article h3 {
-    border-top: 1px dashed gray;
-    font-family: "Abril Fatface", cursive;
-    font-size: 16px;
-    color: #000000;
-    letter-spacing: 0.05em;
     text-align: left;
   }
   .section-article .boxing-article .article-sale .body-article ul {
@@ -540,16 +580,6 @@ a {
         -ms-flex-direction: initial;
             flex-direction: initial;
     margin: 20px 0px;
-  }
-  .section-article .boxing-article .article-sale .body-article ul li {
-    margin: 10px;
-    font-family: "Raleway", sans-serif;
-    font-size: 12px;
-    color: #000000;
-    list-style-type: square;
-  }
-  .section-article .boxing-article .article-sale .body-article ul li:nth-of-type(1) {
-    list-style-type: none;
   }
   .section-article .boxing-article .article-sale .body-article .foot {
     display: -webkit-box;
@@ -583,20 +613,7 @@ a {
     padding: 7px;
   }
   .section-article .buttom-black {
-    border: 1px solid black;
-    border-radius: 9px;
-    background-color: #000000;
-    color: white;
-    width: 150px;
-    height: 35px;
-    text-align: center;
-    padding: 7px;
-    margin: 30px 0 40px 0;
-    text-decoration: none;
-    font-family: "Raleway", sans-serif;
-    font-size: 16px;
-    font-weight: bold;
-    color: #FFFFFF;
+    margin-bottom: 25px;
   }
 }
 .form {
